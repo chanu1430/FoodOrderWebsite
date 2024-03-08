@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="row text-center bg-body-tertiary" style={{}}>
+    <footer className="row text-center bg-body-tertiary" style={{"box-shadow": "0px -4px 5px 0px rgba(242,242,242,1)"}}>
       <div className="col-12">
         <div style={{ padding: "40px 0px 20px 0px" }}>Follow us on:</div>
         <div

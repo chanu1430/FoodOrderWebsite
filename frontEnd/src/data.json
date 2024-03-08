@@ -1,0 +1,50 @@
+[{
+    "foodType":"Burrito",
+    "details":[
+        {"foodName":"Chicken Burrito", "foodType":"Burrito","image":"images/foodItems/chickenBurrito.jpg",  "price":250,"calories":975},
+        {"foodName":"Steak Burrito", "foodType":"Burrito","image":"images/foodItems/steakBurrito.jpg", "price":250,"calories":945},
+        {"foodName":"Carnitas Burrito", "foodType":"Burrito","image":"images/foodItems/carnitasBurrito.jpg",  "price":250,"calories":1005},
+        {"foodName":"Barbacoa Burrito", "foodType":"Burrito","image":"images/foodItems/barbacoaBurrito.jpg", "price":250,"calories":965},
+        {"foodName":"Chorizo Burrito", "foodType":"Burrito","image":"images/foodItems/chorizoBurrito.jpg", "price":250,"calories":1095},
+        {"foodName":"Sofritas Burrito", "foodType":"Burrito","image":"images/foodItems/sofritasBurrito.jpg", "price":250,"calories":945}
+    ]
+    },
+    {
+    "foodType":"Taco",
+    "details":[ 
+    {"foodName":"Chicken Corn Tortilla Taco", "foodType":"Taco","image":"images/foodItems/ChickenCornTortillaTaco.jpg", "protein":"chicken", "calories":650,"price":200},
+     {"foodName":"Chicken Flour Tortilla Taco", "foodType":"Taco","image":"images/foodItems/ChickenFlourTortillaTaco.jpg", "protein":"chicken", "calories":700,"price":200},
+     {"foodName":"Steak Corn Tortilla Taco", "foodType":"Taco","image":"images/foodItems/SteakCornTortillaTaco.jpg", "protein":"steak", "calories":620,"price":200},
+     {"foodName":"Steak Flour Tortilla Taco", "foodType":"Taco","image":"images/foodItems/SteakFlourTortillaTaco.jpg", "protein":"steak", "calories":670,"price":200},
+     {"foodName":"Carnitas Corn Tortilla Taco", "foodType":"Taco","image":"images/foodItems/CarnitasCornTortillaTaco.jpg", "protein":"carnitas", "calories":680,"price":200},
+     {"foodName":"Carnitas Flour Tortilla Taco", "foodType":"Taco","image":"images/foodItems/CarnitasFlourTortillaTaco.jpg", "protein":"carnitas", "calories":730,"price":200},
+     {"foodName":"Barbacoa Corn Tortilla Taco", "foodType":"Taco","image":"images/foodItems/BarbacoaCornTortillaTaco.jpg", "protein":"barbacoa", "calories":640,"price":200},
+     {"foodName":"Barbacoa Flour Tortilla Taco", "foodType":"Taco","image":"images/foodItems/BarbacoaFlourTortillaTaco.jpg", "protein":"barbacoa", "calories":690,"price":200},
+     {"foodName":"Chorizo Corn Tortilla Taco", "foodType":"Taco","image":"images/foodItems/ChorizoCornTortillaTaco.jpg", "protein":"chorizo", "calories":770,"price":200}]
+    },
+    {
+    "foodType":"Salad",
+    "details":[  
+      {"foodName":"Chicken Salad", "calories":345,"foodType":"Salad","image":"images/foodItems/ChickenSalad.jpg", "price":150 },
+      {"foodName":"Steak Salad", "calories":315, "foodType":"Salad","image":"images/foodItems/SteakSalad.jpg", "price":150 },
+      {"foodName":"Carnitas Salad", "calories":375, "foodType":"Salad","image":"images/foodItems/CarnitasSalad.jpg", "price":150 },
+      {"foodName":"Barbacoa Salad", "calories":335, "foodType":"Salad","image":"images/foodItems/BarbacoaSalad.jpg", "price":150 },
+      {"foodName":"Chorizo Salad", "calories":465, "foodType":"Salad","image":"images/foodItems/ChorizoSalad.jpg", "price":150 }]
+    },
+    {
+    "foodType":"Pastry",
+    "details":[
+      {"foodName":"Bear Claw", "calories":540, "foodType":"Pastry","image":"images/foodItems/BearClaw.jpg","price":250},
+      {"foodName":"Cinnamon Roll", "calories":670, "foodType":"Pastry","image":"images/foodItems/CinnamonRoll.jpg","price":250},
+      {"foodName":"Pecan Roll", "calories":720, "foodType":"Pastry","image":"images/foodItems/PecanRoll.jpeg","price":250},
+      {"foodName":"Cobblestone", "calories":560, "foodType":"Pastry","image":"images/foodItems/Cobblestone.jpg","price":250},
+      {"foodName":"Blueberry Muffin", "calories":460, "foodType":"Pastry","image":"images/foodItems/BlueberryMuffin.webp","price":250},
+      {"foodName":"Cranberry Orange Muffin", "calories":480, "foodType":"Pastry","image":"images/foodItems/CranberryOrangeMuffin.jpg","price":250},
+      {"foodName":"Apple Crunch Muffin", "calories":450, "foodType":"Pastry","image":"images/foodItems/AppleCrunchMuffin.webp","price":250},
+      {"foodName":"Pumpkin Muffin", "calories":580, "foodType":"Pastry","image":"images/foodItems/PumpkinMuffin.jpg","price":250},
+      {"foodName":"Chocolate Chip Muffie", "calories":320, "foodType":"Pastry","image":"images/foodItems/ChocolateChipMuffie.jpg","price":250}
+       ]
+    }
+    
+    
+    ]

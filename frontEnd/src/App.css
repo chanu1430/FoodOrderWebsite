@@ -1,0 +1,170 @@
+/* Navbar */
+#navbar-outer-div{
+  box-shadow: 0px 5px 10px 1px rgba(207,207,207,0.88);
+}
+
+/* middle content */
+#middleContent-outer-div {
+  background-color: #f9fafc;
+  padding-top: 20px;
+ 
+}
+#middleContent-search-bar {
+  margin: 40px 0px;
+}
+
+
+/* Food Items */
+#card-img {
+  height: "150px";
+}
+#card-content-div {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+#foodItem-card-title {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+#foodItem-card-price {
+  font-size: 14px;
+  font-weight: 400;
+}
+#foodItem-outer-div {
+  border: 1px solid #d4d4d4;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  margin: 15px 0px;
+}
+
+#foodItem-outer-div > img {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  width: 100%;
+  object-fit: cover;
+}
+#foodItem-card-content {
+  margin: 10px 10px;
+}
+#foodItem-btn-outerdiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Carousel */
+#carousel-image {
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(1);
+  transition: filter 0.2s;
+}
+#carousel-image:hover {
+  filter: brightness(0.8);
+}
+
+/* Login Page */
+
+#login-page-outer-div {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/images/carousel/img3.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* 
+
+*/
+#login-page-form {
+  border: 1px solid white;
+  padding: 30px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 1);
+}
+
+#login-outer-row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login-submit-button > button {
+  margin: 10px 0px;
+}
+
+#login-create-account {
+  text-align: end;
+}
+#login-create-account-text {
+  color: white;
+}
+
+/* SignUp */
+
+#signup-page-outer-div {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/images/carousel/img3.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#signup-page-form {
+  border: 1px solid white;
+  padding: 30px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 1);
+}
+
+#signup-outer-row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup-submit-button > button {
+  margin: 10px 0px;
+}
+
+#signup-create-account {
+  text-align: end;
+}
+#signup-create-account-text {
+  color: white;
+}
+
+
+/* Admin Page */
+#adminContentDiv{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../public/images/admin/image1.jpg");
+background-size: cover;
+background-position: center;
+color: white;
+
+}
+
+
+/* cart */
+/* #cart-remove-btn{
+  background-color: #198754;
+  color: white;
+}
+
+#cart-remove-btn :hover{
+  background-color: #dc3545;
+} */
+#cart-details{
+  height: 100%;
+}
+#cart-details > h6,#cart-details > div,#cart-details > div>p{
+  margin:0px
+}
+#cart-details > div>p{
+  font-size: 14px;
+}

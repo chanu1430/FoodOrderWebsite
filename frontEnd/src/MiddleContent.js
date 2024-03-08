@@ -8,7 +8,7 @@ export default function MiddleContent() {
 
   const fetchingFoodItemsData= async () =>{
     try {
-      const res=await fetch("http://localhost:4000/fooditems",{
+      const res=await fetch("https://foodorderwebsite.onrender.com/fooditems",{
         method:"GET",
         headers:{
           "Content-type":"application/json"

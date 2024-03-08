@@ -36,7 +36,7 @@ export default function Login() {
 const handleSubmit= async (e)=>{
   try{
     e.preventDefault();
-    const res=await fetch("http://localhost:4000/login",{
+    const res=await fetch("https://foodorderwebsite.onrender.com/login",{
       method:"POST",
       headers:{
         "Content-type":"application/json"

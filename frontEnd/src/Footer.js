@@ -13,7 +13,7 @@ export default function Footer() {
             padding: "10px 0px",
           }}
         >
-          <div className="col-1">
+          <div className="col-2 col-md-1">
             <a href="https://m.facebook.com/chanu.puthalapattu.3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export default function Footer() {
             </a>
           
           </div>
-          <div className="col-1">
+          <div className="col-2 col-md-1">
             <a href="https://www.instagram.com/chanu_ihy__/">
               <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export default function Footer() {
             </a>
             
           </div>
-          <div className="col-1">
+          <div className="col-2 col-md-1">
             <a href="https://twitter.com/?lang=en">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ export default function Footer() {
             </a>
           
           </div>
-          <div className="col-1">
+          <div className="col-2 col-md-1">
             <a href="https://www.linkedin.com/in/chanakya3000/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

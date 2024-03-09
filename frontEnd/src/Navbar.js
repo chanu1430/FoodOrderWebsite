@@ -28,6 +28,15 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              
+
+            </ul>
+            <div className="d-flex">
+
+              
+              <ul  className="navbar-nav me-auto mb-2 mb-lg-0">
+
               <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
                   Home
@@ -46,19 +55,15 @@ export default function Navbar() {
               </li>
               {
 
-                (localStorage.getItem("email")==="Chanakya@gmail.com")?
-                 <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="/Admin">
-                        Admin
-                    </Link>
-                 </li>:""
+              (localStorage.getItem("email")==="Chanakya@gmail.com")?
+              <li className="nav-item">
+                  <Link className="nav-link active" aria-current="page" to="/Admin">
+                      Admin
+                  </Link>
+              </li>:""
 
               }
-
-            </ul>
-            <div className="d-flex">
-              <ul  className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item" >
+              <li className="nav-item" >
 
                   {(localStorage.getItem("authToken")) ?
                     <Link className="nav-link" to="/cart" style={{color:"black"}}>Cart</Link>: 

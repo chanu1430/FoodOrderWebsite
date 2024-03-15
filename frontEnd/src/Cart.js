@@ -42,7 +42,8 @@ const handleCheckout= async()=>{
   if(json.success){
      console.log(json) ;
       cartDispatchItems({type:"DROP"});
-      console.log("data dropped")
+      console.log("data dropped");
+     alert("Check your Orders in 'MY Orders'");
   }
 
 

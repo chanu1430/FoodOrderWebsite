@@ -8,6 +8,7 @@ export default function MiddleContent() {
 
   const fetchingFoodItemsData= async () =>{
     try {
+      console.log("fetching the data");
       const res=await fetch("https://foodorderwebsite.onrender.com/fooditems",{
         method:"GET",
         headers:{
@@ -17,6 +18,7 @@ export default function MiddleContent() {
     
       const json=await res.json();
       setFoodList(json.foodData) 
+      console.log("Successfully fetched the data");
       
     } catch (error) {
       console.log("Unable to connect to server");

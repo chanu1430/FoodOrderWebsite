@@ -8,6 +8,7 @@ import FoodItemContext from "./context/FoodItemContext";
 import MiddleContent from "./MiddleContent";
 import MyOrders from "./MyOrders";
 import Admin from "./Admin";
+import "./Loading.scss";
 function App() {
   return (
     <FoodItemContext>

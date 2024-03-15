@@ -23,7 +23,7 @@ export default function MiddleContent() {
     } catch (error) {
       console.log("Unable to connect to server");
       setFoodList([]) 
-      
+       fetchingFoodItemsData();
     }
 
   

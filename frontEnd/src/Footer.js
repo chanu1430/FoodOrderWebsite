@@ -2,13 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-<<<<<<< HEAD
-    <footer className="row text-center bg-body-tertiary" style={{"box-shadow": "0px -4px 5px 0px rgba(242,242,242,1)"}}>
-      <div className="col-12">
-=======
     <footer className="row text-center bg-body-tertiary" style={{"box-shadow": "rgb(242, 242, 242) 0px -4px 5px 0px"}}>
       <div className="col-12" style={{backgroundColor:"#f3f3f3"}}>
->>>>>>> 57cb505 (first commit)
         <div style={{ padding: "40px 0px 20px 0px" }}>Follow us on:</div>
         <div
           className="row"

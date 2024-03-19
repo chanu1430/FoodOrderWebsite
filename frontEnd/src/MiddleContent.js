@@ -9,11 +9,7 @@ export default function MiddleContent() {
   const fetchingFoodItemsData= async () =>{
     try {
       console.log("fetching the data");
-<<<<<<< HEAD
       const res=await fetch("https://foodorderwebsite.onrender.com/fooditems",{
-=======
-      const res=await fetch("http://localhost:4000/fooditems",{
->>>>>>> 57cb505 (first commit)
         method:"GET",
         headers:{
           "Content-type":"application/json"
@@ -22,21 +18,12 @@ export default function MiddleContent() {
     
       const json=await res.json();
       setFoodList(json.foodData) 
-<<<<<<< HEAD
       console.log("Successfully fetched the data");
-=======
-
-      console.log("Successfully getting the data");
->>>>>>> 57cb505 (first commit)
       
     } catch (error) {
       console.log("Unable to connect to server");
       setFoodList([]) 
        fetchingFoodItemsData();
-<<<<<<< HEAD
-=======
-
->>>>>>> 57cb505 (first commit)
     }
 
   
@@ -126,13 +113,9 @@ export default function MiddleContent() {
         }
         </div>
          <div className='col-lg-1 col-0'></div>
-<<<<<<< HEAD
-    </div>:  <div id="outer-div-loading">
-=======
     </div>
     :
     <div id="outer-div-loading">
->>>>>>> 57cb505 (first commit)
       <div class="wrapper">
           <div class="box-wrap">
               <div class="box one"></div>

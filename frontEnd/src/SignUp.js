@@ -38,7 +38,7 @@ export default function SignUp() {
     console.log(data);
     try{
       e.preventDefault();
-      const res=await fetch("https://foodorderwebsite.onrender.com/signup",{
+      const res=await fetch("http://localhost:4000/signup",{
         method:"POST",
         headers:{
           "Content-type":"application/json"

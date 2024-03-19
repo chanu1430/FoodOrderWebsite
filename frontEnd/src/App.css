@@ -1,3 +1,9 @@
+/* Home */
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
 /* Navbar */
 #navbar-outer-div{
   box-shadow: 0px 5px 10px 1px rgba(207,207,207,0.88);
@@ -157,14 +163,7 @@ color: white;
 
 
 /* cart */
-/* #cart-remove-btn{
-  background-color: #198754;
-  color: white;
-}
 
-#cart-remove-btn :hover{
-  background-color: #dc3545;
-} */
 #cart-details{
   height: 100%;
 }
@@ -176,7 +175,10 @@ color: white;
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 57cb505 (first commit)
 /* Loading .................................. */
 
 #outer-div-loading{
@@ -191,3 +193,8 @@ color: white;
     background-color: #090909;
     opacity: 0.7;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 57cb505 (first commit)

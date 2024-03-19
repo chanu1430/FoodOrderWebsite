@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Carousel() {
   return (
-    <div className="container" id="carousel-outer-div">
+    <div className="row" id="carousel-outer-div" style={{padding:"0px"}}>
          {/* <div className="col-lg-1 col-0"></div>
          <div className="col-lg-10 col-12"> */}
          <div
         id="carouselExampleIndicators"
         className="carousel slide"
         data-bs-ride="carousel" 
-        
+        style={{padding:"0px"}}
       >
         <div className="carousel-indicators">
           <button

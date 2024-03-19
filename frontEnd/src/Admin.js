@@ -123,7 +123,7 @@ export default function Admin() {
           protein: details.proteins.toString(),
         },
       };
-      const res = await fetch("https://foodorderwebsite.onrender.com/updatefooditems", {
+      const res = await fetch("http://localhost:4000/updatefooditems", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -156,7 +156,7 @@ export default function Admin() {
         alert("Fill All the Fields");
     }
     else{
-      const res =await fetch("https://foodorderwebsite.onrender.com/deleteitem",{
+      const res =await fetch("http://localhost:4000/deleteitem",{
         method:"POST",
         headers:{
           "Content-type":"application/json"

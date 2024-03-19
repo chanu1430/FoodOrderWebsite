@@ -20,7 +20,7 @@ const handleCheckout= async()=>{
 
   const email=localStorage.getItem("email");
 
-  const res= await fetch("https://foodorderwebsite.onrender.com/orders",{
+  const res= await fetch("http://localhost:4000/orders",{
 
    method:"POST",
    headers:{
@@ -42,8 +42,13 @@ const handleCheckout= async()=>{
   if(json.success){
      console.log(json) ;
       cartDispatchItems({type:"DROP"});
+<<<<<<< HEAD
       console.log("data dropped");
      alert("Check your Orders in 'MY Orders'");
+=======
+      console.log("data dropped")
+      alert("Check your Orders in 'MY Orders'");
+>>>>>>> 57cb505 (first commit)
   }
 
 

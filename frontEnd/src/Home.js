@@ -5,7 +5,7 @@ import Footer from './Footer'
 import Carousel from './Carousel'
 export default function Home() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid' id="home-container">
         <Navbar/>
         <Carousel/>
         <MiddleContent/>
